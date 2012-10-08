@@ -6,6 +6,8 @@ gem 'jquery-rails', "~> 2.1.3"
 
 gem 'high_voltage', "~> 1.2.0"
 
+gem 'modernizr-rails', "~> 2.0.6"
+
 group :development, :test do
   gem 'sqlite3', "1.3.6"
 end
