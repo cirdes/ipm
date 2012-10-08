@@ -2,25 +2,27 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 
-gem 'jquery-rails'
+gem 'jquery-rails', "~> 2.1.3"
 
-gem 'high_voltage'
+gem 'high_voltage', "~> 1.2.0"
 
-gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3', "1.3.6"
+end
 
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
-  gem 'compass-rails'
-  gem 'twitter-bootstrap-rails'
+  gem 'sass-rails', "~> 3.2.5"
+  gem 'coffee-rails', "~> 3.2.2"
+  gem 'compass-rails', "~> 1.0.3"
+  gem 'twitter-bootstrap-rails', "~> 2.1.3"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier'
+  gem 'uglifier', "~> 1.3.0"
 end
 
 
@@ -31,7 +33,7 @@ end
 # gem 'jbuilder'
 
 # Use unicorn as the app server
- gem 'unicorn'
+ gem 'unicorn', '~> 4.3.1'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -40,5 +42,5 @@ end
 # gem 'debugger'
 
 group  :production do
-  gem 'pg'
+  gem 'pg', "~> 0.14.1"
 end
