@@ -11,6 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require modernizr
-//= require jquery
-//= require jquery_ujs
+//= require jquery-1.7.2.min
+//= require bootstrap.min
+//= require focus
 //= require_tree .
