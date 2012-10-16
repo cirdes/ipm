@@ -82,7 +82,7 @@ input {
 [2. Wrapper]
 */
 
-#wrapper, #page_header, #page_footer {
+#wrapper{
 	width: 880px;
 	padding: 0 50px;
 	margin: 0 auto;
