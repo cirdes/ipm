@@ -360,7 +360,8 @@ input {
 #masthead {
 	position: relative;
 	
-	height: 375px;
+	height: 329px;
+	/*height: 375px;*/
 	margin-bottom: 2.5em;
 	
 	-moz-box-shadow: 1px 1px 6px rgba(0,0,0,.5);	
