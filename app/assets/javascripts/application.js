@@ -11,7 +11,13 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require modernizr
-//= require jquery-1.7.2.min
-//= require bootstrap.min
-//= require focus
-//= require_tree .
+//= require jquery-1.8.2
+//= require bootstrap
+//= require isotope
+//= require jquery.imagesloaded
+//= require flexslider
+//= require carousel
+//= require jquery.cslider
+//= require slider
+//= require fancybox
+//= require custom

@@ -1,212 +1,245 @@
-	<div id="masthead">
-		<div class="container">
-		
-			<div id="masthead-carousel" class="carousel slide">
-				
-				<div class="carousel-inner">
-					<div class="active item">
-						<%= image_tag("masthead/culto-domingo.png") %>
-				
-						<div class="masthead-details">
-							
-							<h2>Cultos do domingo</h2>
-							
-							<p>Matinal: 9h</p>
-							
-							<p>Vespertino: 18h</p>
-							
-						</div> <!-- /masthead-details -->
-					</div> <!-- /item -->
-					
-					<div class="item">
-						<%= image_tag("masthead/culto-oracao.jpg") %>
-				
-						<div class="masthead-details">
-							
-							<h2>Culto de oração</h2>
-							
-							<p>Quarta - 19h30</p>
-							
-						</div> <!-- /masthead-details -->
-					</div> <!-- /item -->
-					
-					<div class="item">
-						<%= image_tag("masthead/porque-ler-a-biblia.jpg") %>
-				
-						<div class="masthead-details">
-							
-							<h2>Por que ler a Bíblia?</h2>
-							
-							<p>Estudos ministrados pelo Pr. Edilson</p>
-							
-						</div> <!-- /masthead-details -->
-					</div> <!-- /item -->
-					
-					<div class="item">
-						<%= image_tag("masthead/bemvindo.jpg") %>
-						
-				
-						<div class="masthead-details">
-							
-							<h2>Livre acesso</h2>
-							
-							<p>Sexta 19h30</p>
-							
-							
-						</div> <!-- /masthead-details -->
-					</div> <!-- /item -->
-					
-				</div> <!-- /carousel-inner -->
-				
-				<a class="carousel-control left" href="#masthead-carousel" data-slide="prev">&lsaquo;</a>
-				<a class="carousel-control right" href="#masthead-carousel" data-slide="next">&rsaquo;</a>
-				
-			</div> <!-- /masthead-carousel -->
+<!--start: Wrapper-->
+<div id="wrapper">
 			
-		</div> <!-- /container -->
-	
-	</div> <!-- /masthead -->
+	<!--start: Container -->
+	<div class="container">
+		
+		<!-- start: Flexslider -->
+		<div class="slider">
+		
+			<div id="flex1" class="flexslider">
+				<ul class="slides">
 
-	<div id="content">
+					<li>
+						<%= image_tag("slider/slider1.jpg")%>
+						<div class="slide-caption n hidden-phone">
+							<h3>This is a caption</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</li>
+
+					<li>
+						<%= image_tag("slider/slider2.jpg")%>
+						<div class="slide-caption hidden-phone">
+							<h3>This is a caption</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</li>
+
+					<li>
+						<%= image_tag("slider/slider3.jpg")%>
+					</li>
+
+				</ul>
+			</div>
 		
-		<div class="container">
+		</div>
+		<!-- end: Flexslider -->
 		
-			<div class="row">
-				<div id="welcome" class="grid-12">
-					<h1>Confia os teus cuidados ao Senhor, e ele te susterá; jamais permitirá que o justo seja abalado.
-						Salmos 55:22</h1>
-				</div>
-			</div> <!-- /row -->
-			
-			
-			<hr class="row-divider" />
-			
-			
-			<div class="row divider service-container">
-				
-				<div class="grid-3">
-					<h2><span class="slash">//</span> Our Services</h2>
-					
-					<p>Maecenas a mi nibh, eu euismod orci. Vivamus viverra lacus vitae.</p>
-					
-					<a href="javascript:;" class="btn btn-small btn-warning">More Services</a>
-				</div>
-				
-				<div class="grid-3">
-					<div class="service-item">
-						
-						<h3>
-							<i class="icon-tint"></i> 
-							Website Design
-						</h3> <!-- /service-icon -->
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-						
-						<p><a href="javascript:;" class="">Learn More »</a></p>
-						
-					</div> <!-- /service -->
-				</div>
-				
-				<div class="grid-3">
-					<div class="service-item">
-						
-						<h3>
-							<i class="icon-map-marker"></i>		
-							Mobile Development
-						</h3> <!-- /service-icon -->
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-						
-						<p><a href="javascript:;" class="">Learn More »</a></p>
-						
-					</div>				
-				</div>
-				
-				<div class="grid-3">
-					<div class="service-item">
-						
-						<h3>
-							<i class="icon-cogs"></i> 
-							Web Development
-						</h3> <!-- /service-icon -->
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-						
-						<p><a href="javascript:;" class="">Learn More »</a></p>
-						
-					</div>			
-				</div>
-			</div> <!-- /row -->
-			
-			
-			<hr class="row-divider" />
-			
-			
-			<div class="row divider about-container">
-				
-				<div class="grid-3">				
-					<h2><span class="slash">//</span> Our Story</h2>
-					
-					<p>Maecenas a mi nibh, eu euismod orci. Vivamus viverra lacus vitae.</p>
-					
-					<p><a href="javascript:;" class="btn btn-small btn-warning">More Story »</a>
-				</p>
-				
-			</div> <!-- /grid-3 -->
-			
-			<div class="grid-4">
-				<div class="about-item">
-									
-					<h3>About Us</h3>
-					
-					<p style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					
-					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					
-					<p><a href="javascript:;">Read More »</a></p>						
-					
-				</div> <!-- /about -->
-			</div> <!-- /grid-4 -->
-			
-			<div class="grid-5">				
-				<h3>Why Choose Us</h3>
-			
-				<div class="choose-item">
-					
-					<h3>
-						<i class="icon-star"></i>
-						Awesome #1							
-					</h3>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div> <!-- /choose-item -->
-			
-				<div class="choose-item">
-					<h3>
-						<i class="icon-star"></i>
-						Awesome #2							
-					</h3>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div> <!-- /choose-item -->
-				
-				<div class="choose-item">
-					
-					<h3>
-						<i class="icon-star"></i>
-						Awesome #3							
-					</h3>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div> <!-- /choose-item -->
-				
-				<p><a href="javascript:;">More Reasons »</a></p>
-				
-			</div> <!-- /grid-5 -->
-				
-			</div> <!-- /row -->
-			
-		</div> <!-- /container -->
+		<hr>
+
+  		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
+  		<div class="hero-unit">
+    		<p>
+				This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+			</p>
+    		<p><a class="btn btn-success btn-large">Learn more &raquo;</a></p>
+  		</div>
+		<!-- end: Hero Unit -->
+  		
+		<hr>
 		
-	</div> <!-- /content -->
+		<!-- start: Row -->
+		<div class="row">
 			
+			<!-- start: Icon Boxes -->
+			<div class="icons-box-vert-container">
+
+				<!-- start: Icon Box Start -->
+				<div class="span4">
+					<div class="icons-box-vert">
+						<i class="ico-ok ico-white circle-color-full"></i>
+						<div class="icons-box-vert-info">
+							<h3>Easy to use</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<!-- end: Icon Box-->
+
+				<!-- start: Icon Box Start -->
+				<div class="span4">
+					<div class="icons-box-vert">
+						<i class="ico-cup  ico-white circle-color-full"></i>
+						<div class="icons-box-vert-info">
+							<h3>Best choice</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<!-- end: Icon Box -->
+
+				<!-- start: Icon Box Start -->
+				<div class="span4">
+					<div class="icons-box-vert">
+						<i class="ico-ipad ico-white circle-color-full"></i>
+						<div class="icons-box-vert-info">
+							<h3>Fully Responsive</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<!-- end: Icon Box -->
+
+			</div>
+			<!-- end: Icon Boxes -->
+			<div class="clear"></div>
+		</div>
+		<!-- end: Row -->
+		
+		<hr>
+		
+		<!-- start: Row -->
+  		<div class="row">
+
+			<div class="span9">
+				
+				<div class="title"><h3>Latest Works</h3></div>
+				
+				<!-- start: Row -->
+	      		<div class="row">
+		
+					<div class="span3">
+
+						<div class="picture">
+							<a href="car.jpg" rel="image" title="mobile app">
+								<%= image_tag("car.jpg")%>
+								<div class="image-overlay-zoom"></div>
+							</a>
+						</div>
+						<div class="item-description">
+							<h4><a href="#">Mobile App</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						</div>
+				
+    				</div>
+				
+					<div class="span3">
+
+						<div class="picture">
+							<a href="project.html">
+								<%= image_tag("web_app1.jpg")%>
+								<div class="image-overlay-link"></div>
+							</a>
+						</div>
+						<div class="item-description">
+							<h4><a href="#">Mobile App</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						</div>
+
+	        		</div>
+
+					<div class="span3">
+
+						<div class="picture">
+							<a href="mobile_app1.jpg" rel="image" title="mobile app">
+								<%= image_tag("mobile_app1.jpg")%>
+								<div class="image-overlay-zoom"></div>
+							</a>
+						</div>
+						<div class="item-description">
+							<h4><a href="#">Mobile App</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						</div>
+
+					</div>
+				
+    			</div>
+				<!-- end: Row -->
+				
+			</div>
+
+    		<div class="span3">
+				
+				<!-- start: Testimonials-->
+
+				<div class="testimonial-container">
+
+					<div class="title"><h3>What Client’s Say</h3></div>
+
+						<div class="testimonials-carousel" data-autorotate="3000">
+
+							<ul class="carousel">
+
+								<li class="testimonial">
+									<div class="testimonials">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+									<div class="testimonials-bg"></div>
+									<div class="testimonials-author">Lucas Luck, <span>CEO</span></div>
+								</li>
+
+								<li class="testimonial">
+									<div class="testimonials">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </div>
+									<div class="testimonials-bg"></div>
+									<div class="testimonials-author">Lucas Luck, <span>CTO</span></div>
+								</li>
+
+								<li class="testimonial">
+									<div class="testimonials">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+									<div class="testimonials-bg"></div>
+									<div class="testimonials-author">Lucas Luck, <span>COO</span></div>
+								</li>
+
+								<li class="testimonial">
+									<div class="testimonials">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+									<div class="testimonials-bg"></div>
+									<div class="testimonials-author">Lucas Luck, <span>CMO</span></div>
+								</li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				<!-- end: Testimonials-->
+				
+    		</div>
+
+  		</div>
+		<!-- end: Row -->
+		
+		<hr>
+	
+		<!-- start Clients List -->	
+		<div class="clients-carousel">
+	
+			<ul class="slides clients">
+				<li><%= image_tag("logos/1.png")%></li>
+				<li><%= image_tag("logos/2.png")%></li>
+				<li><%= image_tag("logos/3.png")%></li>
+				<li><%= image_tag("logos/4.png")%></li>
+				<li><%= image_tag("logos/5.png")%></li>
+				<li><%= image_tag("logos/6.png")%></li>
+				<li><%= image_tag("logos/7.png")%></li>
+				<li><%= image_tag("logos/8.png")%></li>
+				<li><%= image_tag("logos/9.png")%></li>
+				<li><%= image_tag("logos/10.png")%></li>
+			</ul>
+	
+		</div>
+		<!-- end Clients List -->
+	
+		<hr>
+		
+	</div>
+	<!--end: Container-->
+
+</div>
+<!-- end: Wrapper  -->		

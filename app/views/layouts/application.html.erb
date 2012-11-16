@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
+	<!-- start: Meta -->
   <meta charset="utf-8">
   <title>Igreja Presbiteriana da Madalena</title>
+  <meta name="description" content="Igreja Presbiteriana da Madalena"/>
+	<meta name="keywords" content="Igreja, Presbiteriana, Madalena, IPM" />
+	<meta name="author" content="Cirdes Henrique"/>
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end: Mobile Specific -->
+	
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content=""/>
+	<meta property="og:type" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
+	<!-- end: Facebook Open Graph -->
+
+	<!-- start: CSS -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+	<!-- end: CSS -->
+
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 
 <body>
-<div id="wrapper" class="clearfix">
 	<%= render 'layouts/header' %>
-	<div class="container">
-		<%= yield %>
-	</div>
-
+	<%= yield %>
 	<%= render 'layouts/footer' %>
-</div>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>
