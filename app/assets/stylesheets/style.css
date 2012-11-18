@@ -6,11 +6,6 @@
 
 /* Import Section
 =================================================================== */
-@import url("icons.css");				/* Icons. */
-@import url("icons-color.css");			/* Icons. */  
-@import url("social-icons.css");		/* Social Icons */
-@import url("hover.css");				/* Hover CSS3 Effect */
-@import url("fancybox.css");			/* Fancybox */
 
 .clear {
 	clear:both;

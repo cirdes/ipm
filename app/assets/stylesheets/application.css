@@ -12,4 +12,9 @@
  *= require bootstrap
  *= require bootstrap-responsive
  *= require style
+ *= require icons
+ *= require icons-color
+ *= require social-icons
+ *= require hover
+ *= require fancybox
  */
