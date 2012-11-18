@@ -1,0 +1,9 @@
+development: &development
+  access_key_id: AKIAIV7C2VLTEDWRPCCQ
+  secret_access_key: RDYEbEChOIyfT0hjphwHCsLmwsJDAN2zr/bjdsO+gS
+  bucket: ipmadalena
+
+production:
+  access_key_id: AKIAIV7C2VLTEDWRPCCQ
+  secret_access_key: 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
+  bucket: ipmadalena

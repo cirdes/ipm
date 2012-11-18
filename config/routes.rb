@@ -1,4 +1,10 @@
 Ipm::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  resources :sliders
+
   root :to => 'high_voltage/pages#show', :id => 'index'
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -6,6 +6,11 @@ gem 'jquery-rails', "~> 2.1.3"
 
 gem 'high_voltage', "~> 1.2.0"
 
+gem "paperclip", "~> 3.3.1"
+gem 'aws-sdk', "~> 1.7.1"
+
+gem 'activeadmin', "~> 0.5.0"
+
 gem 'modernizr-rails', "~> 2.0.6"
 
 group :development, :test do
