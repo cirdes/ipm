@@ -6,6 +6,9 @@ Ipm::Application.routes.draw do
   resources :sliders
 
   root :to => 'high_voltage/pages#show', :id => 'index'
+
+  match "/pages/*id" => 'pages#show', :as => :page, :format => false
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

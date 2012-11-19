@@ -9,31 +9,17 @@
 		
 			<div id="flex1" class="flexslider">
 				<ul class="slides">
-
-					<li>
-						<%= image_tag("slider/slider1.jpg")%>
-						<div class="slide-caption n hidden-phone">
-							<h3>This is a caption</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-							</p>
-						</div>
-					</li>
-
-					<li>
-						<%= image_tag("slider/slider2.jpg")%>
-						<div class="slide-caption hidden-phone">
-							<h3>This is a caption</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-							</p>
-						</div>
-					</li>
-
-					<li>
-						<%= image_tag("slider/slider3.jpg")%>
-					</li>
-
+					<% @sliders.each do |slider| %>
+						<li>
+							<%= image_tag slider.image.url(:original) %>
+							<% if slider.caption || slider.description%>
+								<div class="slide-caption n hidden-phone">
+								<%= content_tag(:h3, slider.caption) if slider.caption %>
+								<%= content_tag(:p, slider.description) if slider.description %>
+								</div>
+							<% end %>
+						</li>
+					<% end %>
 				</ul>
 			</div>
 		

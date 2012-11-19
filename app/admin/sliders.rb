@@ -2,7 +2,7 @@ ActiveAdmin.register Slider do
 	index do
     column :caption
     column :description
-    column :slider, :as => :file
+    column :image
     default_actions
   end
   
@@ -10,7 +10,7 @@ ActiveAdmin.register Slider do
     f.inputs "Slider Details" do       
       f.input :caption                  
       f.input :description              
-      f.input :slider, :as => :file
+      f.input :image, :as => :file
     end                               
     f.buttons                         
   end     
