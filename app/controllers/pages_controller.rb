@@ -5,7 +5,6 @@ class PagesController < HighVoltage::PagesController
     def set_slider
       if params[:id] == "index"
       	@sliders = Slider.all
-      	puts "alaga"
       end
     end
 end
