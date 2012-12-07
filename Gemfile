@@ -13,6 +13,8 @@ gem 'activeadmin', "~> 0.5.0"
 
 gem 'modernizr-rails', "~> 2.0.6"
 
+gem 'newrelic_rpm'
+
 group :development, :test do
   gem 'sqlite3', "1.3.6"
 end
