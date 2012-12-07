@@ -21,3 +21,5 @@
 //= require slider
 //= require fancybox
 //= require custom
+//= require jquery.gmap.min
+//= require contact
