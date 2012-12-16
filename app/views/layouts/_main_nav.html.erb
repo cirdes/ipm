@@ -1,0 +1,15 @@
+<ul class="nav">
+	<li class= <%= nav_class(current_nav, "Home")%> > <%= link_to "Home", root_path %></li>
+	<li class= <%= nav_class(current_nav, "A igreja")%> > <a href="#">A igreja</a></li>
+	<li class= <%= nav_class(current_nav, "Ministérios", "dropdown")%> >
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ministérios<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+				<li><a href="#">Madalena Kids</a></li>
+			<li><a href="#">Ore</a></li>
+			<li><a href="#">ACAMP</a></li>
+		</ul>
+	</li>
+	<li class= <%= nav_class(current_nav, "Culto ao vivo")%> > <a href="#">Culto ao vivo</a></li>
+	<li class= <%= nav_class(current_nav, "Agenda")%> > <a href="#">Agenda</a></li>
+	<li class= <%= nav_class(current_nav, "Contato")%> > <%= link_to "Contato", page_path("contact") %></li>
+</ul>
